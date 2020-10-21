@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vzbfyv5bIC9OLyEXRPN1WkffbxoF5YSrkT7NHf5lRsGOsqm/yQcZexZN7Dl8r4MAhMaWSUelEi7EezAwjFl2cg==",
+  "success": true,
+  "projectFilePath": "D:\\Progetti\\winKeyboardIndicators\\src\\KeyIndicator.Client\\KeyIndicator.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrea Tosato\\.nuget\\packages\\hardcodet.notifyicon.wpf\\1.0.8\\hardcodet.notifyicon.wpf.1.0.8.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Hardcodet.NotifyIcon.Wpf 1.0.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Hardcodet.NotifyIcon.Wpf",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

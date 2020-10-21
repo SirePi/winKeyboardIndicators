@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<Title>KeyIndicator</Title>
+		<Company></Company>
+		<Product>KeyIndicator</Product>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<ApplicationIcon>Icons\app.ico</ApplicationIcon>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="app.ico" />
+		<None Remove="Icons\app.ico" />
+		<None Remove="Icons\lock-caps-num-scroll.ico" />
+		<None Remove="Icons\lock-caps-num.ico" />
+		<None Remove="Icons\lock-caps-scroll.ico" />
+		<None Remove="Icons\lock-caps.ico" />
+		<None Remove="Icons\lock-num-scroll.ico" />
+		<None Remove="Icons\lock-num.ico" />
+		<None Remove="Icons\lock-scroll.ico" />
+		<None Remove="Icons\lock-single.ico" />
+		<None Remove="Icons\lock.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="1.0.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="app.ico" />
+		<Resource Include="Icons\app.ico" />
+		<Resource Include="Icons\lock-caps-num-scroll.ico" />
+		<Resource Include="Icons\lock-caps-num.ico" />
+		<Resource Include="Icons\lock-caps-scroll.ico" />
+		<Resource Include="Icons\lock-caps.ico" />
+		<Resource Include="Icons\lock-num-scroll.ico" />
+		<Resource Include="Icons\lock-num.ico" />
+		<Resource Include="Icons\lock-scroll.ico" />
+		<Resource Include="Icons\lock-single.ico" />
+		<Resource Include="Icons\lock.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Properties\Settings.Designer.cs">
+	    <DesignTimeSharedInput>True</DesignTimeSharedInput>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Settings.settings</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Properties\Settings.settings">
+	    <Generator>SettingsSingleFileGenerator</Generator>
+	    <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+	  </None>
+	</ItemGroup>
+
+</Project>
