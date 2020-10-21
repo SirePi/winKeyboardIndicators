@@ -8,10 +8,10 @@ In system bar you can configure:
 - Windows Statup Behaviour
 - Windows Statup  Behaviour
 
-![System Bar](.\assets\systembar.png)
+![System Bar](/assets/systembar.png)
 
 ### Center screen
 At Windows screen you can check keyboard changes
 
-![Change](.\assets\change.png)
-![Unlock](.\assets\unlock.png)
+![Change](/assets/change.png)
+![Unlock](/assets/unlock.png)
