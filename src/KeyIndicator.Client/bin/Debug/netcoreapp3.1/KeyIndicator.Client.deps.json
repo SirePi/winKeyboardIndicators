@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "KeyIndicator.Client/1.0.0": {
+        "dependencies": {
+          "Hardcodet.NotifyIcon.Wpf": "1.0.8"
+        },
+        "runtime": {
+          "KeyIndicator.Client.dll": {}
+        }
+      },
+      "Hardcodet.NotifyIcon.Wpf/1.0.8": {
+        "runtime": {
+          "lib/net451/Hardcodet.Wpf.TaskbarNotification.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KeyIndicator.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hardcodet.NotifyIcon.Wpf/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aAwa6uNxvjJXJNtax+0TnZOvsxhiFbuKiAUjjiOf/Z6EVbZ6jUdQBR5ik1JHJhfABHFj5rhW1vgdizBizePXvQ==",
+      "path": "hardcodet.notifyicon.wpf/1.0.8",
+      "hashPath": "hardcodet.notifyicon.wpf.1.0.8.nupkg.sha512"
+    }
+  }
+}
