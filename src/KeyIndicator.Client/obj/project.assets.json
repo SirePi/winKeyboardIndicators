@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Hardcodet.NotifyIcon.Wpf/1.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Hardcodet.Wpf.TaskbarNotification.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Hardcodet.Wpf.TaskbarNotification.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hardcodet.NotifyIcon.Wpf/1.0.8": {
+      "sha512": "aAwa6uNxvjJXJNtax+0TnZOvsxhiFbuKiAUjjiOf/Z6EVbZ6jUdQBR5ik1JHJhfABHFj5rhW1vgdizBizePXvQ==",
+      "type": "package",
+      "path": "hardcodet.notifyicon.wpf/1.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hardcodet.notifyicon.wpf.1.0.8.nupkg.sha512",
+        "hardcodet.notifyicon.wpf.nuspec",
+        "lib/net35-client/Hardcodet.Wpf.TaskbarNotification.dll",
+        "lib/net35-client/Hardcodet.Wpf.TaskbarNotification.pdb",
+        "lib/net35-client/Hardcodet.Wpf.TaskbarNotification.xml",
+        "lib/net35/Hardcodet.Wpf.TaskbarNotification.dll",
+        "lib/net35/Hardcodet.Wpf.TaskbarNotification.pdb",
+        "lib/net35/Hardcodet.Wpf.TaskbarNotification.xml",
+        "lib/net40-client/Hardcodet.Wpf.TaskbarNotification.dll",
+        "lib/net40-client/Hardcodet.Wpf.TaskbarNotification.pdb",
+        "lib/net40-client/Hardcodet.Wpf.TaskbarNotification.xml",
+        "lib/net40/Hardcodet.Wpf.TaskbarNotification.dll",
+        "lib/net40/Hardcodet.Wpf.TaskbarNotification.pdb",
+        "lib/net40/Hardcodet.Wpf.TaskbarNotification.xml",
+        "lib/net45/Hardcodet.Wpf.TaskbarNotification.dll",
+        "lib/net45/Hardcodet.Wpf.TaskbarNotification.pdb",
+        "lib/net45/Hardcodet.Wpf.TaskbarNotification.xml",
+        "lib/net451/Hardcodet.Wpf.TaskbarNotification.dll",
+        "lib/net451/Hardcodet.Wpf.TaskbarNotification.pdb",
+        "lib/net451/Hardcodet.Wpf.TaskbarNotification.xml",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Hardcodet.NotifyIcon.Wpf >= 1.0.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Andrea Tosato\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Progetti\\winKeyboardIndicators\\src\\KeyIndicator.Client\\KeyIndicator.Client.csproj",
+      "projectName": "KeyIndicator.Client",
+      "projectPath": "D:\\Progetti\\winKeyboardIndicators\\src\\KeyIndicator.Client\\KeyIndicator.Client.csproj",
+      "packagesPath": "C:\\Users\\Andrea Tosato\\.nuget\\packages\\",
+      "outputPath": "D:\\Progetti\\winKeyboardIndicators\\src\\KeyIndicator.Client\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Andrea Tosato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Hardcodet.NotifyIcon.Wpf": {
+            "target": "Package",
+            "version": "[1.0.8, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Hardcodet.NotifyIcon.Wpf 1.0.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Hardcodet.NotifyIcon.Wpf",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
